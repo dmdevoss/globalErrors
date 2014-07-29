@@ -6,22 +6,23 @@ A simple global errors module for AngularJS. I tested this with 1.22 and the cur
 Hopefully this is useful for somebody. Just drop the variable wherever, or give it its own file.
 
 Be sure to add it to your app:
-
-**var app = angular.module('app', [
+```
+var app = angular.module('app', [
         'globalErrors'
-	]);**
+	]);
+```
 	
 To use add a:
-
-  **<div class="globalAlerts" app-messages></div>**
-  
+```html
+  <div class="globalAlerts" app-messages></div>
+```
 to where ever you want the alerts to show up. 
 
 Stylize it using the current classes or add more if you have additional cases (for different error types such as 404).
 
 Here is some sample css for your convinience:
 
-
+```
   .globalAlerts{
       border-radius: 5px;
       text-align: center;
@@ -55,3 +56,4 @@ Here is some sample css for your convinience:
   .errorMessage{
       background-color: #FECB9F;
   }
+```
