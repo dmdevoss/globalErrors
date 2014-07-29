@@ -1,7 +1,7 @@
 globalErrors
 ============
 
-globalErrors module for AngularJS
+A simple global errors module for AngularJS. I tested this with 1.22 and the current 1.3 angular beta.
 
 Hopefully this is useful for somebody. Just drop the variable wherever, or give it its own file.
 
