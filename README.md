@@ -7,12 +7,14 @@ Hopefully this is useful for somebody. Just drop the variable wherever, or give 
 
 Be sure to add it to your app:
 
-  var app = angular.module('app', [
+**var app = angular.module('app', [
         'globalErrors'
-	]);
+	]);**
 	
 To use add a:
-  < div class="globalAlerts" app-messages >< /div >
+
+  **<div class="globalAlerts" app-messages></div>**
+  
 to where ever you want the alerts to show up. 
 
 Stylize it using the current classes or add more if you have additional cases (for different error types such as 404).
