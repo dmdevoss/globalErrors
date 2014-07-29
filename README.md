@@ -18,6 +18,8 @@ to where ever you want the alerts to show up.
 Stylize it using the current classes or add more if you have additional cases (for different error types such as 404).
 
 Here is some sample css for your convinience:
+
+
   .globalAlerts{
       border-radius: 5px;
       text-align: center;
