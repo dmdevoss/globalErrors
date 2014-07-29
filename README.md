@@ -12,7 +12,7 @@ Be sure to add it to your app:
 	]);
 	
 To use add a:
-  <div class="globalAlerts" app-messages></div> 
+  < div class="globalAlerts" app-messages >< /div >
 to where ever you want the alerts to show up. 
 
 Stylize it using the current classes or add more if you have additional cases (for different error types such as 404).
